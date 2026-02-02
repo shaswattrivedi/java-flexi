@@ -33,9 +33,9 @@ class SimpleCalculator extends Calculator {
 
         SimpleCalculator calc = new SimpleCalculator();
 
-        System.out.println(calc.add(a, b));
-        System.out.println(calc.subtract(a, b));
-        System.out.println(calc.multiply(a, b));
-        System.out.println(calc.divide(a, b));
+        System.out.println("Sum: " + calc.add(a, b));
+        System.out.println("Difference: " + calc.subtract(a, b));
+        System.out.println("Product: " + calc.multiply(a, b));
+        System.out.println("Quotient: " + calc.divide(a, b));
     }
 }
