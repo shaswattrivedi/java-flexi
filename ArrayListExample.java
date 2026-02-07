@@ -12,6 +12,6 @@ public class ArrayListExample {
         fruits.remove("Banana");
         System.out.println("Fruits " + fruits);
         System.out.println("Size " + fruits.size());
-        System.out.println("Fruits have Apple?" + fruits.contains("Cherry"));
+        System.out.println("Fruits have Apple? " + fruits.contains("Cherry"));
     }
 }
